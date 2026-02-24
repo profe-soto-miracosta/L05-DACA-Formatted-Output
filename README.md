@@ -1,9 +1,9 @@
 # Lab 05 - DACA + Formatted Output
 
-_Learning Objective: demonstrate an understanding of formatted console output applied to DACA article_
+## Learning Objective
+- Demonstrate an understanding of formatted console output applied to DACA article_
 
-
-**Given:** 
+## Program Description
 
 A couple of weeks back an intern finished a mock-up of an Employment Authorization Card in Java.
 
@@ -42,22 +42,19 @@ They started addressing the spacing but ran into some issues:
 
 Once they were about to tackle the issues above, they were pulled off the project and it was handed off to you. Lucky!
 
-**Lab ToDo:**
+## Specifications
 
 Using what you've learned about formatted output (`System.out.printf` and `String.format`), address the two issues the other intern ran into:
 
 - Fix incorrectly formatted numbers (USCIS# and dates) vs. correctly formatted numbers:
 1. `12-4-89` vs. `012-004-789`
 2. `1 JAN 1970` vs. `01 JAN 1970`
-3. `2/2/2020` vs. `02/02/2020`
-4. `2/2/2022` vs. `02/02/2022`
+3. `7/4/2026` vs. `07/04/2026`
 - Dynamically space out data for each line so that the data and sides (`║)` line up, even if there are changes to the cardholders data (ex: given name changes to DENEA). **_Use the mock-up above from the previous intern as a guide._**
-
-**Once you have completed the lab, call over instructor or interns to verify 1) functionality, 2) convention/style, and 3) documentation.**
 
 Done with the lab above? Only then should you attempt the....
 
-**!!!!!Hacker Challenge!!!!!**
+##  Hacker Challenge
 
 - Look up "ANSI Java encoding" and see how you can add colors, bold text, etc. to make the output look even better!
 - TIP: use variables efficiently/creatively! If you start modifying print statements things get very messy....
